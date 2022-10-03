@@ -14,6 +14,7 @@
 		F0F2076728EB6B3C005EA033 /* TestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0F2076528EB6B3C005EA033 /* TestApp.xcdatamodeld */; };
 		F0F2076928EB6B3F005EA033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F2076828EB6B3F005EA033 /* Assets.xcassets */; };
 		F0F2076C28EB6B3F005EA033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F2076A28EB6B3F005EA033 /* LaunchScreen.storyboard */; };
+		F0F2077428EB6B81005EA033 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2077328EB6B81005EA033 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F0F2076828EB6B3F005EA033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F2076B28EB6B3F005EA033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0F2076D28EB6B3F005EA033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F2077328EB6B81005EA033 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F0F2076A28EB6B3F005EA033 /* LaunchScreen.storyboard */,
 				F0F2076D28EB6B3F005EA033 /* Info.plist */,
 				F0F2076528EB6B3C005EA033 /* TestApp.xcdatamodeld */,
+				F0F2077328EB6B81005EA033 /* CoreDataStack.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F2077428EB6B81005EA033 /* CoreDataStack.swift in Sources */,
 				F0F2076128EB6B3C005EA033 /* ViewController.swift in Sources */,
 				F0F2076728EB6B3C005EA033 /* TestApp.xcdatamodeld in Sources */,
 				F0F2075D28EB6B3C005EA033 /* AppDelegate.swift in Sources */,
